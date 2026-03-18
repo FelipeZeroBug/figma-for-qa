@@ -144,3 +144,5 @@ Utilize zoom (100%, 125%, 150%)
 Alinhe dúvidas com o designer
 
 Evite suposições — valide tudo
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/40edff74-c277-43dc-94f1-cf34a05544e5" />
+
