@@ -1,146 +1,191 @@
-# Figma vs DevTools
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/54f66c8d-7038-42c4-8ce5-e0489f143326" />
 
-🎨 QA + Figma
-Guia prático para validação de layout com precisão
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5a339e38-c686-444e-b088-4786e00043ba" />
 
-Este repositório foi criado para ajudar QAs a utilizarem o Figma como ferramenta principal na validação de interfaces, garantindo consistência visual, fidelidade ao design e redução de bugs em produção.
+# 🎨 Figma + 🧪 DevTools para QA
+### Validação visual de interfaces na prática
 
-📌 Objetivo
+Este módulo complementa as metodologias ágeis trazendo um ponto essencial que muitos times ignoram:
 
-Capacitar QAs a:
+👉 **Qualidade visual e fidelidade ao design**
 
-Validar telas com base no Figma
+---
 
-Identificar divergências visuais
+## 🎯 Por que isso importa?
 
-Garantir consistência entre design e desenvolvimento
+Em times ágeis, não basta funcionar.
 
-Melhorar a comunicação com designers e devs
+👉 **Tem que funcionar certo e parecer certo.**
 
-🧠 Por que usar Figma no QA?
+Erros visuais impactam diretamente:
 
-O Figma não é só uma ferramenta de design — ele é a fonte da verdade do layout.
+- Experiência do usuário  
+- Conversão (principalmente em e-commerce)  
+- Credibilidade da marca  
 
-Sem validação com base nele, você corre risco de:
+---
 
-Layout quebrado em produção
+## 🎨 Figma no QA
 
-Espaçamentos inconsistentes
+### 📌 O que é o Figma para o QA?
 
-Cores e fontes incorretas
+O Figma é a **fonte da verdade do layout**.
 
-Experiência do usuário prejudicada
+Tudo que está no produto deve seguir exatamente o que foi definido nele.
 
-🛠️ O que validar no Figma
-🎯 1. Estrutura geral
+---
 
-Hierarquia dos elementos
+### 🚀 Importância do Figma na validação
 
-Organização dos blocos
+Sem usar Figma, o QA:
 
-Presença/ausência de componentes
+- Valida “no olho”  
+- Pode deixar passar erros visuais  
+- Perde precisão  
 
-📏 2. Espaçamentos
+Com Figma, o QA:
 
-Margens (margin)
+- Valida com exatidão  
+- Identifica divergências claras  
+- Garante **pixel perfect**  
 
-Espaçamento interno (padding)
+---
 
-Distância entre elementos
+### 🧠 O que validar no Figma
 
-💡 Dica: use a tecla ALT (Option) no Figma para medir espaçamentos
+- Espaçamentos (margin / padding)  
+- Tipografia (font-size, font-weight)  
+- Cores (HEX)  
+- Componentes (botões, inputs, cards)  
+- Alinhamento  
+- Responsividade  
 
-🎨 3. Cores
+---
 
-Cor de fundo
+### 💡 Dica prática
 
-Cor de texto
+Use a tecla `ALT` para medir espaçamentos diretamente no Figma.
 
-Botões e estados (hover, active, disabled)
+---
 
-🔤 4. Tipografia
+## 🧪 DevTools no QA
 
-Fonte (family)
+### 📌 O que é o DevTools?
 
-Tamanho (font-size)
+O DevTools é a ferramenta que mostra o que realmente foi implementado no código.
 
-Peso (font-weight)
+---
 
-Altura de linha (line-height)
+### 🚀 Importância do DevTools
 
-🧱 5. Componentes
+Sem DevTools:
 
-Botões
+👉 Você **acha** que está errado  
 
-Inputs
+Com DevTools:
 
-Cards
+👉 Você **prova** que está errado  
 
-Modais
+---
 
-Verifique se estão seguindo o padrão do design system
+### 🧠 O que validar no DevTools
 
-📱 6. Responsividade
+- CSS aplicado  
+- Margin / Padding (Box Model)  
+- Fontes e cores reais  
+- Dimensões (width / height)  
+- Estados (`hover`, `active`, `focus`)  
 
-Desktop
+---
 
-Tablet
+### 📱 Validação Mobile
 
-Mobile
+Com DevTools você pode:
 
-⚠️ Sempre validar se o comportamento bate com o Figma (não só visual, mas adaptação)
+- Simular dispositivos (iPhone, Android)  
+- Testar responsividade  
+- Identificar quebras de layout  
+- Detectar scroll horizontal 🚨  
 
-🖼️ 7. Imagens e ícones
+---
 
-Tamanho correto
+### ⚠️ Bugs comuns detectados
 
-Qualidade
+- Espaçamento diferente do Figma  
+- Fonte incorreta  
+- Elementos desalinhados  
+- Layout quebrando no mobile  
+- Botões com área clicável ruim  
 
-Posicionamento
+---
 
-Proporção
+## ⚔️ Figma vs DevTools
 
-🔍 Como validar na prática
-Passo a passo:
+### 🎨 Figma = Design (Esperado)
 
-Acesse o Figma do projeto
+- Define como deve ser  
+- Guia visual  
+- Fonte da verdade  
 
-Compare com o ambiente (dev/homolog/prod)
+---
 
-Use ferramentas como:
+### 🧪 DevTools = Implementação (Real)
 
-Inspecionar elemento (DevTools)
+- Mostra o que foi feito  
+- Código aplicado  
+- Comportamento real  
 
-Extensões de comparação (ex: PerfectPixel)
+---
 
-Valide item por item
+### 🔥 Diferença prática
 
-Documente divergências
+| Figma | DevTools |
+|------|--------|
+| Mostra o design ideal | Mostra o que está em produção |
+| Define espaçamento de 24px | Pode mostrar 16px (bug) |
+| Define cor #000 | Pode estar #111 (bug) |
+| Define layout perfeito | Pode quebrar no mobile |
 
-🐞 Exemplo de bug (padrão QA)
+---
 
-Título: Divergência de espaçamento no botão CTA
+## 🎯 Papel do QA
 
-Descrição:
-O botão apresenta espaçamento inferior diferente do especificado no Figma.
+👉 Comparar os dois e encontrar divergências
 
-Esperado:
-Espaçamento de 24px conforme Figma
+---
 
-Atual:
-Espaçamento de 16px
+## 🧪 Exemplo prático
 
-Evidência:
-(Print do Figma + Print do site)
+**Cenário: Botão CTA**
 
-💬 Boas práticas
+- Figma: padding 24px  
+- DevTools: padding 16px  
 
-Sempre valide com o Figma aberto
+👉 **Resultado: BUG de layout**
 
-Nunca confie “no olho”
+---
 
-Utilize zoom (100%, 125%, 150%)
+## 🚀 Conclusão
 
-Alinhe dúvidas com o designer
+Um QA de alto nível não valida só funcionalidade.
 
-Evite suposições — valide tudo
+Ele valida:
+
+- Experiência  
+- Interface  
+- Fidelidade ao design  
+
+---
+
+## 💣 Regra de ouro
+
+👉 Figma mostra o que deveria ser  
+👉 DevTools mostra o que realmente é  
+
+👉 O QA garante que os dois sejam iguais  
+
+---
+
+## ⭐ Se esse conteúdo te ajudou
+
+Deixe uma ⭐ no repositório!
