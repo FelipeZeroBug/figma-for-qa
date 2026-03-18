@@ -1,9 +1,7 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/54f66c8d-7038-42c4-8ce5-e0489f143326" />
-
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5a339e38-c686-444e-b088-4786e00043ba" />
-
 # 🎨 Figma + 🧪 DevTools para QA
 ### Validação visual de interfaces na prática
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0b286adb-2893-4d46-8140-926f7634d1ba" />
 
 Este módulo complementa as metodologias ágeis trazendo um ponto essencial que muitos times ignoram:
 
@@ -65,6 +63,8 @@ Com Figma, o QA:
 ### 💡 Dica prática
 
 Use a tecla `ALT` para medir espaçamentos diretamente no Figma.
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fe638319-e603-4153-bb77-ef225cfcaae4" />
 
 ---
 
@@ -145,6 +145,8 @@ Com DevTools você pode:
 | Define espaçamento de 24px | Pode mostrar 16px (bug) |
 | Define cor #000 | Pode estar #111 (bug) |
 | Define layout perfeito | Pode quebrar no mobile |
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/071b1571-56db-4ed8-9599-ad305781f238" />
 
 ---
 
