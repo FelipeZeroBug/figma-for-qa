@@ -1,4 +1,4 @@
-# figma-for-qa
+# figma vs DevTools
 
 🎨 QA + Figma
 Guia prático para validação de layout com precisão
