@@ -185,9 +185,3 @@ Ele valida:
 👉 DevTools mostra o que realmente é  
 
 👉 O QA garante que os dois sejam iguais  
-
----
-
-## ⭐ Se esse conteúdo te ajudou
-
-Deixe uma ⭐ no repositório!
