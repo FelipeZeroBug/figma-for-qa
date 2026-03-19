@@ -1,3 +1,47 @@
+📌 Figma for QA
+
+Este repositório tem como objetivo mostrar, na prática, como utilizar o Figma como ferramenta essencial no processo de QA (Quality Assurance), garantindo maior fidelidade visual e qualidade nas entregas.
+
+🎯 Objetivo
+
+Ajudar QAs a validarem interfaces de forma mais precisa, comparando o que foi desenvolvido com o que foi definido no design.
+
+🚀 Por que usar Figma no QA?
+
+Sem o Figma, a validação visual acaba sendo subjetiva e baseada “no olho”, o que pode gerar inconsistências.
+
+Com o Figma, o QA consegue:
+
+Validar espaçamentos, cores, fontes e proporções com precisão
+
+Identificar divergências visuais rapidamente
+
+Garantir fidelidade ao layout aprovado
+
+Melhorar a qualidade final do produto
+
+🧪 O que você vai encontrar aqui
+
+Boas práticas de validação visual
+
+Comparação entre Figma vs aplicação real
+
+Uso do DevTools para inspeção de elementos
+
+Exemplos práticos aplicados ao dia a dia de QA
+
+🛠️ Ferramentas utilizadas
+
+Figma
+
+DevTools (Chrome)
+
+💡 Conclusão
+
+Validar apenas funcionalidade não é suficiente.
+
+👉 Um produto de qualidade precisa funcionar bem e parecer certo.
+
 # 🎨 Figma + 🧪 DevTools para QA
 ### Validação visual de interfaces na prática
 
